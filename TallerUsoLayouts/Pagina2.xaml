@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TallerUsoLayouts.Pagina2"
+             Title="Pagina2">
+    
+    <FlexLayout Direction="Column"
+            AlignItems="Center"
+            JustifyContent="SpaceEvenly">
+        <HorizontalStackLayout>
+            <ImageButton Source="https://i.pinimg.com/736x/28/d4/80/28d480291b6373502892d7da680fca36.jpg"
+                 HeightRequest="60"
+                 WidthRequest="60"
+                 Clicked="Boton3_Clicked"
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start" />
+            <Label Text="Tomás Ontaneda" 
+                   VerticalOptions="Center" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <ImageButton Source="https://i.pinimg.com/736x/28/d4/80/28d480291b6373502892d7da680fca36.jpg"
+         HeightRequest="60"
+         WidthRequest="60"
+         Clicked="Boton3_Clicked"
+         HorizontalOptions="Start"
+         VerticalOptions="Start" />
+            <Label Text="Tomás Ontaneda" 
+           VerticalOptions="Center" />
+        </HorizontalStackLayout>
+    </FlexLayout>
+</ContentPage>
