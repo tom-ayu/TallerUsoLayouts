@@ -19,14 +19,14 @@
         </HorizontalStackLayout>
 
         <HorizontalStackLayout>
-            <ImageButton Source="https://i.pinimg.com/736x/28/d4/80/28d480291b6373502892d7da680fca36.jpg"
-         HeightRequest="60"
-         WidthRequest="60"
-         Clicked="Boton3_Clicked"
-         HorizontalOptions="Start"
-         VerticalOptions="Start" />
+            <ImageButton Source="https://media.altchar.com/prod/images/940_530/gm-0df60d16-abab-4d53-bebd-a65f5172b1ac-gta-tde.jpg"
+             HeightRequest="60"
+             WidthRequest="60"
+             Clicked="Boton3_Clicked"
+             HorizontalOptions="Start"
+             VerticalOptions="Start" />
             <Label Text="Tomás Ontaneda" 
-           VerticalOptions="Center" />
+                VerticalOptions="Center" />
         </HorizontalStackLayout>
     </FlexLayout>
 </ContentPage>
